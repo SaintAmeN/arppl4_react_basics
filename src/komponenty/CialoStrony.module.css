@@ -4,3 +4,32 @@
     height: 500px;
     margin: auto;
 }
+
+.NaglowekTabeli {
+    font-weight: bold;
+    padding: 3px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.TabelaGrid {
+    padding: 30px;
+}
+
+.WierszeTabeli :hover{
+    background-color: #00a2a2 !important;
+}
+
+.WierszeTabeli :nth-child(odd) { /*dotyczy całego wiersza*/
+    background-color: #00f0f0;
+}
+
+.WierszeTabeli :nth-child(even) { /*dotyczy całego wiersza*/
+    background-color: #00d2d2;
+}
+
+.KomorkaTabeli div { /*dotyczy każdej komórki w wierszu*/
+    border: 1px solid black;
+    background-color: inherit;
+    padding: 0 2px 0 2px; /*gora prawo dol lewo (wskazwoki zegara)*/
+}
