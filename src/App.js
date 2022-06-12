@@ -1,19 +1,15 @@
 import React from 'react';
 import classes from './App.module.css';
+import Naglowek from "./komponenty/Naglowek";
+import CialoStrony from "./komponenty/CialoStrony";
 
 function App() {
-  return (
-    <div className={classes.NaglowekStrony}>
-        <div className={classes.LewaStrona}>
-            <div className={classes.Logos}>
-                <div>Logo</div>
-                <div>Logo2</div>
-                <div>Logo3</div>
-            </div>
-            <div className={classes.Tytul}>Tytuł strony</div>
+    return (
+        <div>
+            <Naglowek/>
+            <CialoStrony/>
         </div>
-    </div>
-  );
+    );
 }
 
 export default App;
